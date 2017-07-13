@@ -181,6 +181,8 @@
             "!WEBIDL#exceptiondef-typeerror"><code>TypeError</code></a>, and
             abort these steps.
             </li>
+            <li>Set <var>data</var> to a copy of <var>data</var>.
+            </li>
             <li>If <var>data</var>'s <a for="ShareData">url</a> member is
             <a data-cite="!WEBIDL#dfn-present">present</a>:
               <ol>
@@ -200,10 +202,10 @@
                 "!WEBIDL#exceptiondef-typeerror"><code>TypeError</code></a>,
                 and abort these steps.
                 </li>
-                <li>Set <var>data</var> to a copy of <var>data</var>, with its
-                <a for="ShareData">url</a> field set to the result of running
-                the <a data-cite="!URL#concept-url-serializer">URL
-                serializer</a> on <var>url</var>.
+                <li>Set <var>data</var>'s <a for="ShareData">url</a> field to
+                the result of running the <a data-cite=
+                "!URL#concept-url-serializer">URL serializer</a> on
+                <var>url</var>.
                 </li>
               </ol>
             </li>

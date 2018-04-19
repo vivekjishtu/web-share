@@ -1,5 +1,5 @@
 # Web Share API
-
+Demo link: https://vivekjishtu.github.io/web-share/demos/share.html
 **Written**: 2016-06-08, **Updated**: 2017-07-13
 
 **Web Share** is a Web platform API for sharing text, URLs and images to an
